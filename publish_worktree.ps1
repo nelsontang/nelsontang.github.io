@@ -22,10 +22,14 @@ if (-not (Test-Path "public/index.html")) { throw "Build failed: public/index.ht
 
 # 3) 准备 worktree 目录
 $wt = ".ghpages"
-if (-not (Test-Path $wt)) {
-  git worktree add $wt gh-pages
-}
 
+# 如果目录存在或 git 认为它是 worktree，先强制移除（忽略错误）
+try { git worktree remove $wt --force | Out-Null } catch {}
+# 强制删目录（用 cmd 的 rd 更鲁棒，避免 Remove-Item 卡死）
+cmd /c "if exist $wt rd /s /q $wt" | Out-Null
+
+# 重新创建 worktree
+git worktree add $wt gh-pages
 # 4) 清空 worktree（保留 .git）
 Get-ChildItem -Force $wt | Where-Object { $_.Name -notin @('.git') } | Remove-Item -Recurse -Force
 
