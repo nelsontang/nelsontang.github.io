@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>我的技术博客</title><link>https://nelsontang.github.io/</link><description>Recent content on 我的技术博客</description><generator>Hugo -- 0.154.5</generator><language>zh-cn</language><atom:link href="https://nelsontang.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://nelsontang.github.io/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nelsontang.github.io/archives/</guid><description>&lt;h2 id="heading"&gt;@&amp;quot;&lt;/h2&gt;
-&lt;h2 id="summary-按时间浏览所有文章"&gt;title: &amp;ldquo;归档&amp;rdquo;
-layout: &amp;ldquo;archives&amp;rdquo;
-url: &amp;ldquo;/archives/&amp;rdquo;
-summary: &amp;ldquo;按时间浏览所有文章&amp;rdquo;&lt;/h2&gt;
-&lt;p&gt;&amp;ldquo;@ | Set-Content -Encoding UTF8 content/archives.md&lt;/p&gt;</description></item><item><title/><link>https://nelsontang.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nelsontang.github.io/search/</guid><description>&lt;h2 id="heading"&gt;@&amp;quot;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>我的技术博客</title><link>https://nelsontang.github.io/</link><description>Recent content on 我的技术博客</description><generator>Hugo -- 0.154.5</generator><language>zh-cn</language><atom:link href="https://nelsontang.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://nelsontang.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nelsontang.github.io/search/</guid><description>&lt;h2 id="heading"&gt;@&amp;quot;&lt;/h2&gt;
 &lt;h2 id="summary-站内搜索"&gt;title: &amp;ldquo;搜索&amp;rdquo;
 layout: &amp;ldquo;search&amp;rdquo;
 url: &amp;ldquo;/search/&amp;rdquo;
