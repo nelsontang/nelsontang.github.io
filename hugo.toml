@@ -16,6 +16,22 @@ enableRobotsTXT = true
   home = ["HTML", "RSS", "JSON"]
 
 [params]
+  # TODO: 补充站点描述（用于 SEO/分享卡片）
+  description = "TODO: 这里写一句话介绍博客主题（可观测性 / K8s / Go 性能 / AI 工程化）"
+
+  # TODO: 作者显示名（可与 GitHub 用户名不同）
+  author = "TODO: 你的名字或昵称"
+
+  # 首页简介（PaperMod: Home-Info Mode）
+  [params.homeInfoParams]
+    Title = "你好，我是 TODO"
+    Content = "TODO：一句话介绍你做什么，以及这里会写什么。"
+
+  # 社交链接（按需保留/补充）
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/nelsontang"
+
   defaultTheme = "auto"       # auto / dark / light
   disableThemeToggle = false
 
@@ -67,3 +83,8 @@ enableRobotsTXT = true
     name = "搜索"
     url = "/search/"
     weight = 60
+
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 15

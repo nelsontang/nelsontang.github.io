@@ -2,7 +2,8 @@ name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches: ["main"]
+    # NOTE: 该 workflow 已改为默认不自动触发（避免与 gh-pages/worktree 发布链路冲突）
+    branches: ["__disabled__"]
   workflow_dispatch:
 
 permissions:
