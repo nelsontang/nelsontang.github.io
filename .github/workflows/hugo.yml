@@ -21,27 +21,30 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: true
           fetch-depth: 0
 
-      - name: Setup Hugo
+      - name: Setup Hugo (extended)
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "latest"
+          hugo-version: "0.154.0"
           extended: true
 
-      - name: Clean output dir
-        run: rm -rf public
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
-      # IMPORTANT:
-      # Do NOT add -D/--buildDrafts here, otherwise draft: true articles will be published.
       - name: Build
-        run: hugo --minify --cleanDestinationDir
+        run: |
+          rm -rf public
+          hugo --minify --cleanDestinationDir
+
+      - name: Verify index.html exists
+        run: test -f public/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: public
 
   deploy:
     runs-on: ubuntu-latest
