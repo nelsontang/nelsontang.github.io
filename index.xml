@@ -15,5 +15,29 @@
       <guid>http://localhost:1313/posts/hello-hugo/</guid>
       <description>&lt;p&gt;分享一些技术思考和创意想法&lt;/p&gt;</description>
     </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archives/</guid>
+      <description>&lt;h2 id=&#34;heading&#34;&gt;@&amp;quot;&lt;/h2&gt;
+&lt;h2 id=&#34;summary-按时间浏览所有文章&#34;&gt;title: &amp;ldquo;归档&amp;rdquo;
+layout: &amp;ldquo;archives&amp;rdquo;
+url: &amp;ldquo;/archives/&amp;rdquo;
+summary: &amp;ldquo;按时间浏览所有文章&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;@ | Set-Content -Encoding UTF8 content/archives.md&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/search/</guid>
+      <description>&lt;h2 id=&#34;heading&#34;&gt;@&amp;quot;&lt;/h2&gt;
+&lt;h2 id=&#34;summary-站内搜索&#34;&gt;title: &amp;ldquo;搜索&amp;rdquo;
+layout: &amp;ldquo;search&amp;rdquo;
+url: &amp;ldquo;/search/&amp;rdquo;
+summary: &amp;ldquo;站内搜索&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;&amp;ldquo;@ | Set-Content -Encoding UTF8 content/search.md&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
