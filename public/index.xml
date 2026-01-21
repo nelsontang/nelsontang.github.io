@@ -1,43 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>我的技术博客</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on 我的技术博客</description>
-    <generator>Hugo -- 0.154.5</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello my first blog</title>
-      <link>http://localhost:1313/posts/hello-hugo/</link>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/posts/hello-hugo/</guid>
-      <description>&lt;p&gt;分享一些技术思考和创意想法&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/archives/</guid>
-      <description>&lt;h2 id=&#34;heading&#34;&gt;@&amp;quot;&lt;/h2&gt;
-&lt;h2 id=&#34;summary-按时间浏览所有文章&#34;&gt;title: &amp;ldquo;归档&amp;rdquo;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>我的技术博客</title><link>https://nelsontang.github.io/</link><description>Recent content on 我的技术博客</description><generator>Hugo -- 0.154.5</generator><language>zh-cn</language><lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0900</lastBuildDate><atom:link href="https://nelsontang.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello my first blog</title><link>https://nelsontang.github.io/posts/hello-hugo/</link><pubDate>Wed, 21 Jan 2026 00:00:00 +0900</pubDate><guid>https://nelsontang.github.io/posts/hello-hugo/</guid><description>&lt;p&gt;分享一些技术思考和创意想法&lt;/p&gt;</description></item><item><title/><link>https://nelsontang.github.io/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nelsontang.github.io/archives/</guid><description>&lt;h2 id="heading"&gt;@&amp;quot;&lt;/h2&gt;
+&lt;h2 id="summary-按时间浏览所有文章"&gt;title: &amp;ldquo;归档&amp;rdquo;
 layout: &amp;ldquo;archives&amp;rdquo;
 url: &amp;ldquo;/archives/&amp;rdquo;
 summary: &amp;ldquo;按时间浏览所有文章&amp;rdquo;&lt;/h2&gt;
-&lt;p&gt;&amp;ldquo;@ | Set-Content -Encoding UTF8 content/archives.md&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
-      <description>&lt;h2 id=&#34;heading&#34;&gt;@&amp;quot;&lt;/h2&gt;
-&lt;h2 id=&#34;summary-站内搜索&#34;&gt;title: &amp;ldquo;搜索&amp;rdquo;
+&lt;p&gt;&amp;ldquo;@ | Set-Content -Encoding UTF8 content/archives.md&lt;/p&gt;</description></item><item><title/><link>https://nelsontang.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nelsontang.github.io/search/</guid><description>&lt;h2 id="heading"&gt;@&amp;quot;&lt;/h2&gt;
+&lt;h2 id="summary-站内搜索"&gt;title: &amp;ldquo;搜索&amp;rdquo;
 layout: &amp;ldquo;search&amp;rdquo;
 url: &amp;ldquo;/search/&amp;rdquo;
 summary: &amp;ldquo;站内搜索&amp;rdquo;&lt;/h2&gt;
-&lt;p&gt;&amp;ldquo;@ | Set-Content -Encoding UTF8 content/search.md&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+&lt;p&gt;&amp;ldquo;@ | Set-Content -Encoding UTF8 content/search.md&lt;/p&gt;</description></item></channel></rss>

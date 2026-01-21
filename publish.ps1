@@ -57,7 +57,7 @@ if ($status) {
 
 # 3) 构建 Hugo
 Write-Host "==> Build Hugo site" -ForegroundColor Cyan
-Run -exe hugo -args @("--minify")
+Run -exe hugo -args @("--minify","--cleanDestinationDir")
 
 if (!(Test-Path "public/index.html")) {
     throw "public/index.html not found. Hugo build output invalid."
