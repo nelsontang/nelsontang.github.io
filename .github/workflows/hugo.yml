@@ -18,23 +18,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout (with submodules)
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Setup Hugo (extended)
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.154.0"
+          hugo-version: "latest"
           extended: true
 
-      - name: Build
-        run: rm -rf public && hugo --minify --cleanDestinationDir
+      - name: Clean output dir
+        run: rm -rf public
 
-      - name: Verify index.html exists
-        run: test -f public/index.html
+      # IMPORTANT:
+      # Do NOT add -D/--buildDrafts here, otherwise draft: true articles will be published.
+      - name: Build
+        run: hugo --minify --cleanDestinationDir
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

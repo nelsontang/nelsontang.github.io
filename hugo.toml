@@ -2,48 +2,10 @@ baseURL = "https://nelsontang.github.io/"
 languageCode = "zh-cn"
 title = "我的技术博客"
 theme = "PaperMod"
-
 enableRobotsTXT = true
 
-[params]
-  ShowReadingTime = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
-  TocOpen = true
-  defaultTheme = "auto"  # auto / dark / light
-  disableThemeToggle = false
-  ShowSearch = true
-
-[menu]
-  [[menu.main]]
-    name = "文章"
-    url = "/posts/"
-    weight = 1
-
-  [[menu.main]]
-    name = "分类"
-    url = "/categories/"
-    weight = 2
-
-  [[menu.main]]
-    name = "标签"
-    url = "/tags/"
-    weight = 3
-
-  [[menu.main]]
-    name = "系列"
-    url = "/series/"
-    weight = 4
-
-  [[menu.main]]
-    name = "归档"
-    url = "/archives/"
-    weight = 5
-
-  [[menu.main]]
-    name = "搜索"
-    url = "/search/"
-    weight = 6
+[pagination]
+  pagerSize = 20
 
 [taxonomies]
   category = "categories"
@@ -52,10 +14,56 @@ enableRobotsTXT = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  page = ["HTML"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-  term = ["HTML", "RSS"]
 
-[pagination]
-  pagerSize = 20
+[params]
+  defaultTheme = "auto"       # auto / dark / light
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = true
+  ShowSearch = true
+  ShowLastMod = true
+
+  # PaperMod recommended defaults
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowShareButtons = false
+  ShowWordCount = false
+  disableScrollToTop = false
+
+[params.homeInfoParams]
+  Title = "Hello 👋"
+  Content = "分享一些技术思考和创造想法"
+
+[menu]
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "分类"
+    url = "/categories/"
+    weight = 20
+
+  [[menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 30
+
+  [[menu.main]]
+    name = "系列"
+    url = "/series/"
+    weight = 40
+
+  [[menu.main]]
+    name = "归档"
+    url = "/archives/"
+    weight = 50
+
+  [[menu.main]]
+    name = "搜索"
+    url = "/search/"
+    weight = 60
