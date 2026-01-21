@@ -1,17 +1,17 @@
 ---
-title: "Grafana 智能巡检系统：截图/证据/LLM 报告链路设计（草稿）"
-date: 2026-01-21
+title: Grafana 智能巡检系统：截图/证据/LLM 报告链路设计（草稿）
+date: '2024-11-20'
 categories:
-  - 可观测性
-  - 工程实践
+- 可观测性
+- 工程实践
 tags:
-  - grafana
-  - 自动化
-  - ai
-  - playwright
+- grafana
+- 自动化
+- ai
+- playwright
 series:
-  - Grafana 智能巡检实践
-draft: false
+- Grafana 智能巡检实践
+draft: true
 ---
 
 ## TL;DR

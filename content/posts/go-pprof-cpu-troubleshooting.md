@@ -1,16 +1,16 @@
 ---
-title: "Go 服务 CPU 飙高排查：从 pprof 到根因（草稿）"
-date: 2026-01-21
+title: Go 服务 CPU 飙高排查：从 pprof 到根因（草稿）
+date: '2023-06-02'
 categories:
-  - Go 工程
-  - 工程复盘
+- Go 工程
+- 工程复盘
 tags:
-  - golang
-  - pprof
-  - 性能优化
+- golang
+- pprof
+- 性能优化
 series:
-  - Go 服务性能排查实战
-draft: false
+- Go 服务性能排查实战
+draft: true
 ---
 
 ## TL;DR

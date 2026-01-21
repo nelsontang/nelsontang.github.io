@@ -31,7 +31,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: rm -rf public && hugo --minify --cleanDestinationDir
 
       - name: Verify index.html exists
         run: test -f public/index.html

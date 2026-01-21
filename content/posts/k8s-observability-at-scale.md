@@ -1,18 +1,18 @@
 ---
-title: "2000+ 节点集群的可观测性体系设计：指标/日志/链路的取舍与落地（草稿）"
-date: 2026-01-21
+title: 2000+ 节点集群的可观测性体系设计：指标/日志/链路的取舍与落地（草稿）
+date: '2022-03-10'
 categories:
-  - 云原生
-  - 架构设计
+- 云原生
+- 架构设计
 tags:
-  - kubernetes
-  - observability
-  - prometheus
-  - logging
-  - tracing
+- kubernetes
+- observability
+- prometheus
+- logging
+- tracing
 series:
-  - 云原生可观测性实践
-draft: false
+- 云原生可观测性实践
+draft: true
 ---
 
 ## TL;DR

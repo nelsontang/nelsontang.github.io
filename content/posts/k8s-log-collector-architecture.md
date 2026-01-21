@@ -1,17 +1,17 @@
 ---
-title: "云原生日志采集器链路：采集 → 网关 → Kafka/存储 的工程设计（草稿）"
-date: 2026-01-21
+title: 云原生日志采集器链路：采集 → 网关 → Kafka/存储 的工程设计（草稿）
+date: '2021-08-15'
 categories:
-  - 可观测性
-  - 架构设计
+- 可观测性
+- 架构设计
 tags:
-  - kubernetes
-  - logging
-  - otlp
-  - kafka
+- kubernetes
+- logging
+- otlp
+- kafka
 series:
-  - 云原生日志采集原理
-draft: false
+- 云原生日志采集原理
+draft: true
 ---
 
 ## TL;DR
