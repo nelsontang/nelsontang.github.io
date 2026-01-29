@@ -16,16 +16,16 @@ enableRobotsTXT = true
   home = ["HTML", "RSS", "JSON"]
 
 [params]
-  # TODO: 补充站点描述（用于 SEO/分享卡片）
-  description = "TODO: 这里写一句话介绍博客主题（可观测性 / K8s / Go 性能 / AI 工程化）"
+  # 站点描述（用于 SEO/分享卡片）
+  description = "分享关于云原生、可观测性、Kubernetes、Go 性能优化以及 AI 工程化等技术领域的实践与思考"
 
-  # TODO: 作者显示名（可与 GitHub 用户名不同）
-  author = "TODO: 你的名字或昵称"
+  # 作者显示名
+  author = "nelsontang"
 
   # 首页简介（PaperMod: Home-Info Mode）
   [params.homeInfoParams]
-    Title = "你好，我是 TODO"
-    Content = "TODO：一句话介绍你做什么，以及这里会写什么。"
+    Title = "你好，我是 nelsontang，15年互联网从业经验"
+    Content = "专注于云原生、Kubernetes、性能优化等技术，致力于分享从实战中积累的经验与解决方案"
 
   # 社交链接（按需保留/补充）
   [[params.socialIcons]]
@@ -48,10 +48,6 @@ enableRobotsTXT = true
   ShowShareButtons = false
   ShowWordCount = false
   disableScrollToTop = false
-
-[params.homeInfoParams]
-  Title = "Hello 👋"
-  Content = "分享一些技术思考和创造想法"
 
 [menu]
   [[menu.main]]
